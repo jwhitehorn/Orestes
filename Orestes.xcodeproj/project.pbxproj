@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96672A2513942D37009699B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96672A2413942D37009699B8 /* Cocoa.framework */; };
+		96AC93901394883A00B1A6C2 /* OrestesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC93871394883A00B1A6C2 /* OrestesAppDelegate.m */; };
+		96AC93911394883A00B1A6C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC93891394883A00B1A6C2 /* main.m */; };
+		96AC93931394883A00B1A6C2 /* Menulet.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC938C1394883A00B1A6C2 /* Menulet.m */; };
+		96AC9394139489ED00B1A6C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96AC93801394883A00B1A6C2 /* InfoPlist.strings */; };
+		96AC9395139489ED00B1A6C2 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 96AC93821394883A00B1A6C2 /* Credits.rtf */; };
+		96AC9396139489ED00B1A6C2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96AC93841394883A00B1A6C2 /* MainMenu.xib */; };
+		96AC9397139489ED00B1A6C2 /* Orestes-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96AC938A1394883A00B1A6C2 /* Orestes-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96672A2013942D37009699B8 /* Orestes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orestes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96672A2413942D37009699B8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		96672A2713942D37009699B8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		96672A2813942D37009699B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		96672A2913942D37009699B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96AC93811394883A00B1A6C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96AC93831394883A00B1A6C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		96AC93851394883A00B1A6C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96AC93861394883A00B1A6C2 /* Menulet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menulet.h; sourceTree = "<group>"; };
+		96AC93871394883A00B1A6C2 /* OrestesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrestesAppDelegate.m; sourceTree = "<group>"; };
+		96AC93881394883A00B1A6C2 /* Orestes-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Orestes-Prefix.pch"; sourceTree = "<group>"; };
+		96AC93891394883A00B1A6C2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96AC938A1394883A00B1A6C2 /* Orestes-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Orestes-Info.plist"; sourceTree = "<group>"; };
+		96AC938B1394883A00B1A6C2 /* OrestesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrestesAppDelegate.h; sourceTree = "<group>"; };
+		96AC938C1394883A00B1A6C2 /* Menulet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menulet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96672A1D13942D36009699B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96672A2513942D37009699B8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96672A1513942D35009699B8 = {
+			isa = PBXGroup;
+			children = (
+				96AC937F1394883A00B1A6C2 /* Source */,
+				96672A2313942D37009699B8 /* Frameworks */,
+				96672A2113942D37009699B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96672A2113942D37009699B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96672A2013942D37009699B8 /* Orestes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96672A2313942D37009699B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96672A2413942D37009699B8 /* Cocoa.framework */,
+				96672A2613942D37009699B8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96672A2613942D37009699B8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96672A2713942D37009699B8 /* AppKit.framework */,
+				96672A2813942D37009699B8 /* CoreData.framework */,
+				96672A2913942D37009699B8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		96AC937F1394883A00B1A6C2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				96AC93861394883A00B1A6C2 /* Menulet.h */,
+				96AC938C1394883A00B1A6C2 /* Menulet.m */,
+				96AC938B1394883A00B1A6C2 /* OrestesAppDelegate.h */,
+				96AC93871394883A00B1A6C2 /* OrestesAppDelegate.m */,
+				96AC93881394883A00B1A6C2 /* Orestes-Prefix.pch */,
+				96AC93891394883A00B1A6C2 /* main.m */,
+				96AC93801394883A00B1A6C2 /* InfoPlist.strings */,
+				96AC93821394883A00B1A6C2 /* Credits.rtf */,
+				96AC93841394883A00B1A6C2 /* MainMenu.xib */,
+				96AC938A1394883A00B1A6C2 /* Orestes-Info.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96672A1F13942D36009699B8 /* Orestes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96672A3E13942D39009699B8 /* Build configuration list for PBXNativeTarget "Orestes" */;
+			buildPhases = (
+				96672A1C13942D36009699B8 /* Sources */,
+				96672A1D13942D36009699B8 /* Frameworks */,
+				96672A1E13942D36009699B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orestes;
+			productName = Orestes;
+			productReference = 96672A2013942D37009699B8 /* Orestes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96672A1713942D35009699B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Whitehorn Enterprises LLC";
+			};
+			buildConfigurationList = 96672A1A13942D35009699B8 /* Build configuration list for PBXProject "Orestes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96672A1513942D35009699B8;
+			productRefGroup = 96672A2113942D37009699B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96672A1F13942D36009699B8 /* Orestes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96672A1E13942D36009699B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AC9394139489ED00B1A6C2 /* InfoPlist.strings in Resources */,
+				96AC9395139489ED00B1A6C2 /* Credits.rtf in Resources */,
+				96AC9396139489ED00B1A6C2 /* MainMenu.xib in Resources */,
+				96AC9397139489ED00B1A6C2 /* Orestes-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96672A1C13942D36009699B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AC93901394883A00B1A6C2 /* OrestesAppDelegate.m in Sources */,
+				96AC93911394883A00B1A6C2 /* main.m in Sources */,
+				96AC93931394883A00B1A6C2 /* Menulet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96AC93801394883A00B1A6C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AC93811394883A00B1A6C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96AC93821394883A00B1A6C2 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AC93831394883A00B1A6C2 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		96AC93841394883A00B1A6C2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AC93851394883A00B1A6C2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96672A3C13942D39009699B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Source/Orestes-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		96672A3D13942D39009699B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Source/Orestes-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96672A3F13942D39009699B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/Orestes-Prefix.pch";
+				INFOPLIST_FILE = "Source/Orestes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96672A4013942D39009699B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/Orestes-Prefix.pch";
+				INFOPLIST_FILE = "Source/Orestes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96672A1A13942D35009699B8 /* Build configuration list for PBXProject "Orestes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96672A3C13942D39009699B8 /* Debug */,
+				96672A3D13942D39009699B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96672A3E13942D39009699B8 /* Build configuration list for PBXNativeTarget "Orestes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96672A3F13942D39009699B8 /* Debug */,
+				96672A4013942D39009699B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96672A1713942D35009699B8 /* Project object */;
+}
