@@ -10,6 +10,7 @@
 
 
 @implementation Menulet
+@synthesize theMenu;
 
 - (void) alloc{
     NSLog(@"foo");
@@ -21,16 +22,19 @@
 }
 
 - (void)awakeFromNib{
-    statusItem = [[[NSStatusBar systemStatusBar] 
-                   statusItemWithLength:NSVariableStatusItemLength]
-                  retain];
+    statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength] retain];
     [statusItem setHighlightMode:YES];
-    [statusItem setTitle:[NSString 
-                          stringWithString:@"έ"]]; 
+    [statusItem setTitle:[NSString stringWithString:@"έ"]]; 
     [statusItem setEnabled:YES];
-    [statusItem setToolTip:@"IPMenulet"];
-    //[statusItem setAction:@selector(updateIPAddress:)];
-    [statusItem setTarget:self];
+    [statusItem setToolTip:@"Orestes"];
+    
+    [statusItem setMenu:theMenu];
+
+    [theMenu insertItemWithTitle:@"Quit" action:@selector(exitApp) keyEquivalent:@"" atIndex:1];
+}
+
+- (void) exitApp{
+    [[NSApplication sharedApplication] terminate:nil];
 }
 
 

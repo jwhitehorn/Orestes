@@ -11,6 +11,9 @@
 
 @interface Menulet : NSViewController {
     NSStatusItem *statusItem;
+    IBOutlet NSMenu *theMenu;
 }
+
+@property (nonatomic, retain) IBOutlet NSMenu *theMenu;
 
 @end
